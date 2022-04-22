@@ -1,0 +1,368 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "user": "James Richardson",
+      "email": "manager@gmail.com",
+      "pwd": "Manager#1",
+      "role": "manager"
+    },
+    {
+      "id": 2,
+      "user": "Chris Andrew",
+      "email": "chris@gmail.com",
+      "pwd": "Chris#2",
+      "role": "customer"
+    },
+    {
+      "id": 3,
+      "user": "John Doe",
+      "email": "johndoe@gmail.com",
+      "pwd": "John#3",
+      "role": "customer"
+    },
+    {
+      "id": 4,
+      "user": "Testcust Yea",
+      "email": "test@gmail.com",
+      "pwd": "Testcust#4",
+      "role": "customer"
+    },
+    {
+      "id": 5,
+      "user": "Test Manager",
+      "email": "manager2@gmail.com",
+      "pwd": "Manager#5",
+      "role": "manager"
+    },
+    {
+      "id": 6,
+      "user": "Testfemale Testing",
+      "email": "test_f1@gmail.com",
+      "pwd": "Testfemale#6",
+      "role": "customer"
+    },
+    {
+      "user": "dl111",
+      "email": "dl@gmail.com",
+      "pwd": "Dl#1",
+      "role": "customer",
+      "id": 7
+    },
+    {
+      "user": "ddddd",
+      "email": "dl1101@gmail.com",
+      "pwd": "Dl#2",
+      "role": "customer",
+      "id": 8
+    },
+    {
+      "user": "dddd",
+      "email": "ddd@gmail.com",
+      "pwd": "AAss.123",
+      "role": "customer",
+      "id": 9
+    },
+    {
+      "user": "testddd2",
+      "email": "ddd2@gmail.com",
+      "pwd": "AAss.1234",
+      "role": "customer",
+      "id": 10
+    },
+    {
+      "user": "ffff",
+      "email": "fff@gmail.com",
+      "pwd": "Fff.1234",
+      "role": "customer",
+      "id": 11
+    },
+    {
+      "user": "Dongli",
+      "email": "test2022@gmail.com",
+      "pwd": "Test.2022",
+      "role": "customer",
+      "id": 12
+    },
+    {
+      "user": "reactDemo",
+      "email": "reactDemo@gmail.com",
+      "pwd": "Demo.1234",
+      "role": "customer",
+      "id": 13
+    },
+    {
+      "user": "Hello Kitty",
+      "email": "hellokitty@gmail.com",
+      "pwd": "Hello.1234",
+      "role": "customer",
+      "id": 14
+    },
+    {
+      "user": "hello",
+      "email": "hello@kitty.com",
+      "pwd": "Hello.123",
+      "role": "customer",
+      "id": 15
+    },
+    {
+      "user": "Dongli",
+      "email": "great@gmail.com",
+      "pwd": "D.dd123",
+      "role": "customer",
+      "id": 16
+    },
+    {
+      "user": "Dongli",
+      "email": "reactDemo2@gmail.com",
+      "pwd": "reactDemo@gmail.com1",
+      "role": "customer",
+      "id": 17
+    },
+    {
+      "user": "MyName",
+      "email": "myname@gmail.com",
+      "pwd": "Myname#1",
+      "role": "customer",
+      "id": 18
+    },
+    {
+      "user": "Susan Yu",
+      "email": "susanyu@gmail.com",
+      "pwd": "Susan#1",
+      "role": "customer",
+      "id": 19
+    }
+  ],
+  "loans": [
+    {
+      "id": 1,
+      "bankName": "Bank of America",
+      "logo": "https://purepng.com/public/uploads/large/purepng.com-bank-of-america-logologobrand-logoiconslogos-251519939688snesl.png",
+      "minLoanAmount": 5000,
+      "maxLoanAmount": 100000,
+      "minInterestRate": 4.99,
+      "maxInterestRate": 15.69,
+      "minCreditScore": 660,
+      "termLength": 48,
+      "processingFee": 80,
+      "rating": 4.9
+    },
+    {
+      "id": 2,
+      "bankName": "Chase",
+      "logo": "https://logos-world.net/wp-content/uploads/2020/11/Chase-Logo-2005-present.jpg",
+      "minLoanAmount": 4000,
+      "maxLoanAmount": 50000,
+      "minInterestRate": 5.99,
+      "maxInterestRate": 18.69,
+      "minCreditScore": 680,
+      "termLength": 60,
+      "processingFee": 90,
+      "rating": 4.5
+    },
+    {
+      "id": 3,
+      "bankName": "State Farm",
+      "logo": "https://awesome-con.com/wp-content/uploads/2021/06/State-Farm-Logo-2.png",
+      "minLoanAmount": 3500,
+      "maxLoanAmount": 40000,
+      "minInterestRate": 6.99,
+      "maxInterestRate": 25.69,
+      "minCreditScore": 660,
+      "termLength": 60,
+      "processingFee": 100,
+      "rating": 4.7
+    },
+    {
+      "id": 4,
+      "bankName": "US Bank",
+      "logo": "https://www.pngpix.com/wp-content/uploads/2016/07/PNGPIX-COM-US-Bank-Logo-PNG-Transparent.png",
+      "minLoanAmount": 2000,
+      "maxLoanAmount": 35000,
+      "minInterestRate": 9.55,
+      "maxInterestRate": 15.69,
+      "minCreditScore": 580,
+      "termLength": 48,
+      "processingFee": 50,
+      "rating": 4
+    }
+  ],
+  "customerLoanData": [
+    {
+      "id": 3,
+      "user": "John Doe",
+      "gender": "Male",
+      "dob": "1985-10-05",
+      "profilePicUrl": "https://images.unsplash.com/photo-1600180758890-6b94519a8ba6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
+      "appliedLoans": [
+        {
+          "id": 2,
+          "bankName": "Chase",
+          "logo": "https://logos-world.net/wp-content/uploads/2020/11/Chase-Logo-2005-present.jpg",
+          "employer": "Google",
+          "monthlySalary": 8000,
+          "creditScore": 818,
+          "appliedLoanAmount": 20000,
+          "interestRate": 7.8,
+          "termLength": 60,
+          "dateOfApplication": "2020-02-16",
+          "status": "Approved"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "user": "ffff",
+      "gender": "Female",
+      "dob": "1990-11-01",
+      "profilePicUrl": "https://images.unsplash.com/photo-1618232731737-e1cd67c80bc8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+      "appliedLoans": [
+        {
+          "id": 1,
+          "bankName": "Bank of America",
+          "logo": "https://purepng.com/public/uploads/large/purepng.com-bank-of-america-logologobrand-logoiconslogos-251519939688snesl.png",
+          "employer": "DS",
+          "monthlySalary": 1000,
+          "creditScore": 700,
+          "appliedLoanAmount": 90990,
+          "interestRate": 14.68,
+          "termLength": 48,
+          "dateOfApplication": "2022-04-17",
+          "status": "Rejected"
+        },
+        {
+          "id": 2,
+          "bankName": "Chase",
+          "logo": "https://logos-world.net/wp-content/uploads/2020/11/Chase-Logo-2005-present.jpg",
+          "employer": "DS",
+          "monthlySalary": 1000,
+          "creditScore": 700,
+          "appliedLoanAmount": 8888,
+          "interestRate": 7.34,
+          "termLength": 60,
+          "dateOfApplication": "2022-04-17",
+          "status": "Rejected"
+        },
+        {
+          "id": 3,
+          "bankName": "State Farm",
+          "logo": "https://awesome-con.com/wp-content/uploads/2021/06/State-Farm-Logo-2.png",
+          "employer": "DS",
+          "monthlySalary": 1000,
+          "creditScore": 700,
+          "appliedLoanAmount": 11111,
+          "interestRate": 10.89,
+          "termLength": 60,
+          "dateOfApplication": "2022-04-17",
+          "status": "Approved"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "user": "Chris Andrew",
+      "gender": "Male",
+      "dob": "1987-05-21",
+      "profilePicUrl": "https://images.unsplash.com/photo-1584999734482-0361aecad844?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=880&q=80",
+      "appliedLoans": [
+        {
+          "id": 1,
+          "bankName": "Bank of America",
+          "logo": "https://purepng.com/public/uploads/large/purepng.com-bank-of-america-logologobrand-logoiconslogos-251519939688snesl.png",
+          "employer": "Vanguard",
+          "monthlySalary": 7000,
+          "creditScore": 800,
+          "appliedLoanAmount": 8888,
+          "interestRate": 5.43,
+          "termLength": 48,
+          "dateOfApplication": "2022-04-17",
+          "status": "Approved"
+        },
+        {
+          "id": 2,
+          "bankName": "Chase",
+          "logo": "https://logos-world.net/wp-content/uploads/2020/11/Chase-Logo-2005-present.jpg",
+          "employer": "Vanguard",
+          "monthlySalary": 7000,
+          "creditScore": 800,
+          "appliedLoanAmount": 9999,
+          "interestRate": 7.65,
+          "termLength": 60,
+          "dateOfApplication": "2022-04-17",
+          "status": "Approved"
+        },
+        {
+          "id": 4,
+          "bankName": "US Bank",
+          "logo": "https://www.pngpix.com/wp-content/uploads/2016/07/PNGPIX-COM-US-Bank-Logo-PNG-Transparent.png",
+          "employer": "Vanguard",
+          "monthlySalary": 7000,
+          "creditScore": 800,
+          "appliedLoanAmount": 6666,
+          "interestRate": 10.42,
+          "termLength": 48,
+          "dateOfApplication": "2022-04-18",
+          "status": "Pending"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "user": "Testcust Yea",
+      "gender": "Female",
+      "dob": "1990-11-11",
+      "profilePicUrl": "https://www.pinclipart.com/picdir/middle/157-1578186_user-profileImg-default-image-png-clipart.png",
+      "appliedLoans": [
+        {
+          "id": 1,
+          "bankName": "Bank of America",
+          "logo": "https://purepng.com/public/uploads/large/purepng.com-bank-of-america-logologobrand-logoiconslogos-251519939688snesl.png",
+          "employer": "DS",
+          "monthlySalary": 1000,
+          "creditScore": 800,
+          "appliedLoanAmount": 5000,
+          "interestRate": 4.99,
+          "termLength": 48,
+          "dateOfApplication": "2022-04-17",
+          "status": "Approved"
+        },
+        {
+          "id": 2,
+          "bankName": "Chase",
+          "logo": "https://logos-world.net/wp-content/uploads/2020/11/Chase-Logo-2005-present.jpg",
+          "employer": "DS",
+          "monthlySalary": 1000,
+          "creditScore": 800,
+          "appliedLoanAmount": 11111,
+          "interestRate": 7.95,
+          "termLength": 60,
+          "dateOfApplication": "2022-04-17",
+          "status": "Rejected"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "user": "reactDemo",
+      "gender": "Female",
+      "dob": "1998-05-31",
+      "profilePicUrl": "https://images.unsplash.com/photo-1601011850287-43e30b7db748?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80",
+      "appliedLoans": [
+        {
+          "id": 1,
+          "bankName": "Bank of America",
+          "logo": "https://purepng.com/public/uploads/large/purepng.com-bank-of-america-logologobrand-logoiconslogos-251519939688snesl.png",
+          "employer": "DS",
+          "monthlySalary": 1000,
+          "creditScore": 660,
+          "appliedLoanAmount": 7000,
+          "interestRate": 5.22,
+          "termLength": 48,
+          "dateOfApplication": "2022-04-18",
+          "status": "Approved"
+        }
+      ]
+    }
+  ]
+}
